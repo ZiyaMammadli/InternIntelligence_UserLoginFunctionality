@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29E0323B-CA28-40E1-89AC-92AD654F8DD4}|Src\\Infrastructure\\UserLoginFunctionality.Persistence\\UserLoginFunctionality.Persistence.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\infrastructure\\userloginfunctionality.persistence\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E0323B-CA28-40E1-89AC-92AD654F8DD4}|Src\\Infrastructure\\UserLoginFunctionality.Persistence\\UserLoginFunctionality.Persistence.csproj|solutionrelative:src\\infrastructure\\userloginfunctionality.persistence\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD83F345-7F77-4181-98A7-2CD4C396380E}|Src\\Core\\UserLoginFunctionality.Domian\\UserLoginFunctionality.Domian.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\core\\userloginfunctionality.domian\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD83F345-7F77-4181-98A7-2CD4C396380E}|Src\\Core\\UserLoginFunctionality.Domian\\UserLoginFunctionality.Domian.csproj|solutionrelative:src\\core\\userloginfunctionality.domian\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E0323B-CA28-40E1-89AC-92AD654F8DD4}|Src\\Infrastructure\\UserLoginFunctionality.Persistence\\UserLoginFunctionality.Persistence.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\infrastructure\\userloginfunctionality.persistence\\contexts\\userloginfunctionalitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E0323B-CA28-40E1-89AC-92AD654F8DD4}|Src\\Infrastructure\\UserLoginFunctionality.Persistence\\UserLoginFunctionality.Persistence.csproj|solutionrelative:src\\infrastructure\\userloginfunctionality.persistence\\contexts\\userloginfunctionalitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppUserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Configurations\\AppUserConfiguration.cs",
+              "RelativeDocumentMoniker": "Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Configurations\\AppUserConfiguration.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Configurations\\AppUserConfiguration.cs*",
+              "RelativeToolTip": "Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Configurations\\AppUserConfiguration.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:46:26.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserLoginFunctionalityDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Contexts\\UserLoginFunctionalityDbContext.cs",
+              "RelativeDocumentMoniker": "Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Contexts\\UserLoginFunctionalityDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Contexts\\UserLoginFunctionalityDbContext.cs*",
+              "RelativeToolTip": "Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Contexts\\UserLoginFunctionalityDbContext.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:44:10.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Domian\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "Src\\Core\\UserLoginFunctionality.Domian\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Domian\\Entities\\AppUser.cs*",
+              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Domian\\Entities\\AppUser.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:36:58.353Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
