@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29E0323B-CA28-40E1-89AC-92AD654F8DD4}|Src\\Infrastructure\\UserLoginFunctionality.Persistence\\UserLoginFunctionality.Persistence.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\infrastructure\\userloginfunctionality.persistence\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29E0323B-CA28-40E1-89AC-92AD654F8DD4}|Src\\Infrastructure\\UserLoginFunctionality.Persistence\\UserLoginFunctionality.Persistence.csproj|solutionrelative:src\\infrastructure\\userloginfunctionality.persistence\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Migrations\\20250224135224_createdAppUserTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Migrations\\20250224135224_createdAppUserTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96952FF1-4F81-4D03-9664-CEBAB99D236E}|Src\\Presentation\\UserLoginFunctionality.Api\\UserLoginFunctionality.Api.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\presentation\\userloginfunctionality.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96952FF1-4F81-4D03-9664-CEBAB99D236E}|Src\\Presentation\\UserLoginFunctionality.Api\\UserLoginFunctionality.Api.csproj|solutionrelative:src\\presentation\\userloginfunctionality.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E0323B-CA28-40E1-89AC-92AD654F8DD4}|Src\\Infrastructure\\UserLoginFunctionality.Persistence\\UserLoginFunctionality.Persistence.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\infrastructure\\userloginfunctionality.persistence\\contexts\\userloginfunctionalitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E0323B-CA28-40E1-89AC-92AD654F8DD4}|Src\\Infrastructure\\UserLoginFunctionality.Persistence\\UserLoginFunctionality.Persistence.csproj|solutionrelative:src\\infrastructure\\userloginfunctionality.persistence\\contexts\\userloginfunctionalitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E0323B-CA28-40E1-89AC-92AD654F8DD4}|Src\\Infrastructure\\UserLoginFunctionality.Persistence\\UserLoginFunctionality.Persistence.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\infrastructure\\userloginfunctionality.persistence\\persistenceregistiration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E0323B-CA28-40E1-89AC-92AD654F8DD4}|Src\\Infrastructure\\UserLoginFunctionality.Persistence\\UserLoginFunctionality.Persistence.csproj|solutionrelative:src\\infrastructure\\userloginfunctionality.persistence\\persistenceregistiration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD83F345-7F77-4181-98A7-2CD4C396380E}|Src\\Core\\UserLoginFunctionality.Domian\\UserLoginFunctionality.Domian.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\core\\userloginfunctionality.domian\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD83F345-7F77-4181-98A7-2CD4C396380E}|Src\\Core\\UserLoginFunctionality.Domian\\UserLoginFunctionality.Domian.csproj|solutionrelative:src\\core\\userloginfunctionality.domian\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD83F345-7F77-4181-98A7-2CD4C396380E}|Src\\Core\\UserLoginFunctionality.Domian\\UserLoginFunctionality.Domian.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\core\\userloginfunctionality.domian\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD83F345-7F77-4181-98A7-2CD4C396380E}|Src\\Core\\UserLoginFunctionality.Domian\\UserLoginFunctionality.Domian.csproj|solutionrelative:src\\core\\userloginfunctionality.domian\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29E0323B-CA28-40E1-89AC-92AD654F8DD4}|Src\\Infrastructure\\UserLoginFunctionality.Persistence\\UserLoginFunctionality.Persistence.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\infrastructure\\userloginfunctionality.persistence\\contexts\\userloginfunctionalitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29E0323B-CA28-40E1-89AC-92AD654F8DD4}|Src\\Infrastructure\\UserLoginFunctionality.Persistence\\UserLoginFunctionality.Persistence.csproj|solutionrelative:src\\infrastructure\\userloginfunctionality.persistence\\contexts\\userloginfunctionalitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96952FF1-4F81-4D03-9664-CEBAB99D236E}|Src\\Presentation\\UserLoginFunctionality.Api\\UserLoginFunctionality.Api.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\presentation\\userloginfunctionality.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96952FF1-4F81-4D03-9664-CEBAB99D236E}|Src\\Presentation\\UserLoginFunctionality.Api\\UserLoginFunctionality.Api.csproj|solutionrelative:src\\presentation\\userloginfunctionality.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +43,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AppUserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Configurations\\AppUserConfiguration.cs",
-              "RelativeDocumentMoniker": "Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Configurations\\AppUserConfiguration.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Configurations\\AppUserConfiguration.cs*",
-              "RelativeToolTip": "Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Configurations\\AppUserConfiguration.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Title": "20250224135224_createdAppUserTable.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Migrations\\20250224135224_createdAppUserTable.cs",
+              "RelativeDocumentMoniker": "Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Migrations\\20250224135224_createdAppUserTable.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Migrations\\20250224135224_createdAppUserTable.cs*",
+              "RelativeToolTip": "Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Migrations\\20250224135224_createdAppUserTable.cs*",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAQwGEAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T12:46:26.481Z",
+              "WhenOpened": "2025-02-24T13:52:24.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Presentation\\UserLoginFunctionality.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Src\\Presentation\\UserLoginFunctionality.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Presentation\\UserLoginFunctionality.Api\\appsettings.Development.json",
+              "RelativeToolTip": "Src\\Presentation\\UserLoginFunctionality.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-24T13:48:12.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Domian\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "Src\\Core\\UserLoginFunctionality.Domian\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Domian\\Entities\\Role.cs",
+              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Domian\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T13:27:08.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Presentation\\UserLoginFunctionality.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Src\\Presentation\\UserLoginFunctionality.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Presentation\\UserLoginFunctionality.Api\\Program.cs",
+              "RelativeToolTip": "Src\\Presentation\\UserLoginFunctionality.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T13:16:08.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersistenceRegistiration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Persistence\\PersistenceRegistiration.cs",
+              "RelativeDocumentMoniker": "Src\\Infrastructure\\UserLoginFunctionality.Persistence\\PersistenceRegistiration.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Persistence\\PersistenceRegistiration.cs",
+              "RelativeToolTip": "Src\\Infrastructure\\UserLoginFunctionality.Persistence\\PersistenceRegistiration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:58:14.749Z",
               "EditorCaption": ""
             },
             {
@@ -43,22 +111,22 @@
               "Title": "UserLoginFunctionalityDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Contexts\\UserLoginFunctionalityDbContext.cs",
               "RelativeDocumentMoniker": "Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Contexts\\UserLoginFunctionalityDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Contexts\\UserLoginFunctionalityDbContext.cs*",
-              "RelativeToolTip": "Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Contexts\\UserLoginFunctionalityDbContext.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Contexts\\UserLoginFunctionalityDbContext.cs",
+              "RelativeToolTip": "Src\\Infrastructure\\UserLoginFunctionality.Persistence\\Contexts\\UserLoginFunctionalityDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T12:44:10.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Domian\\Entities\\AppUser.cs",
               "RelativeDocumentMoniker": "Src\\Core\\UserLoginFunctionality.Domian\\Entities\\AppUser.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Domian\\Entities\\AppUser.cs*",
-              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Domian\\Entities\\AppUser.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Domian\\Entities\\AppUser.cs",
+              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Domian\\Entities\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T12:36:58.353Z",
               "EditorCaption": ""
