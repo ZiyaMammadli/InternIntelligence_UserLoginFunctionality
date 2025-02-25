@@ -6,7 +6,7 @@ namespace UserLoginFunctionality.Application.Features.Auth.Rules;
 
 public class LoginRules:BaseRule
 {
-    public Task EnsureUserExist(AppUser user)
+    public Task EnsureUserNotFound(AppUser user)
     {
         if (user is null) throw new UserNotFoundException(404, "User is not found");
         return Task.CompletedTask;

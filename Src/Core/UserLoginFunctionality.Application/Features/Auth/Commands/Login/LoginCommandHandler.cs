@@ -1,7 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Options;
 using System.IdentityModel.Tokens.Jwt;
 using UserLoginFunctionality.Application.Features.Auth.Rules;
 using UserLoginFunctionality.Application.Services;
@@ -26,7 +25,7 @@ public class LoginCommandHandler : IRequestHandler<LoginCommandRequest, LoginCom
     public async Task<LoginCommandResponse> Handle(LoginCommandRequest request, CancellationToken cancellationToken)
     {
         var user = await _userManager.FindByEmailAsync(request.Email);
-        await _loginRules.EnsureUserExist(user);
+        await _loginRules.EnsureUserNotFound(user);
         bool checkPassword=await _userManager.CheckPasswordAsync(user,request.Password);
         await _loginRules.EnsureUserLogin(checkPassword);
         var Token=await _tokenService.GenerateAccessTokenAsync(user);
