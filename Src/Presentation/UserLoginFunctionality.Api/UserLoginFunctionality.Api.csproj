@@ -12,16 +12,17 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Core\UserLoginFunctionality.Application\UserLoginFunctionality.Application.csproj" />
     <ProjectReference Include="..\..\Infrastructure\UserLoginFunctionality.Infrastructure\UserLoginFunctionality.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Infrastructure\UserLoginFunctionality.Persistence\UserLoginFunctionality.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
