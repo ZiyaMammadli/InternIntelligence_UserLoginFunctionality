@@ -3,6 +3,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 using UserLoginFunctionality.Application.Services;
 using UserLoginFunctionality.Domian.Entities;
@@ -46,7 +47,10 @@ public class TokenService : ITokenService
 
     public string GenerateRefreshToken()
     {
-        throw new NotImplementedException();
+        byte[] num = new byte[32];
+        using RandomNumberGenerator rng= RandomNumberGenerator.Create();
+        rng.GetBytes(num);
+        return Convert.ToBase64String(num);
     }
 
     public ClaimsPrincipal? GetPrincipalFromExpiredToken(string? token)
