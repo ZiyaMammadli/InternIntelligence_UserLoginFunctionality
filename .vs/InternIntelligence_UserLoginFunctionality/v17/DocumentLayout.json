@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\core\\userloginfunctionality.application\\exceptionmiddlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|solutionrelative:src\\core\\userloginfunctionality.application\\exceptionmiddlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\core\\userloginfunctionality.application\\features\\auth\\commands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|solutionrelative:src\\core\\userloginfunctionality.application\\features\\auth\\commands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\core\\userloginfunctionality.application\\exceptionmiddlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|solutionrelative:src\\core\\userloginfunctionality.application\\exceptionmiddlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\core\\userloginfunctionality.application\\exceptions\\auth\\userinvalidloginexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|solutionrelative:src\\core\\userloginfunctionality.application\\exceptions\\auth\\userinvalidloginexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F966D75B-C8BA-4C88-A9CE-B4A89292FD3E}|Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\UserLoginFunctionality.Infrastructure.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\infrastructure\\userloginfunctionality.infrastructure\\tokens\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F966D75B-C8BA-4C88-A9CE-B4A89292FD3E}|Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\UserLoginFunctionality.Infrastructure.csproj|solutionrelative:src\\infrastructure\\userloginfunctionality.infrastructure\\tokens\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\core\\userloginfunctionality.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|solutionrelative:src\\core\\userloginfunctionality.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\core\\userloginfunctionality.application\\features\\auth\\rules\\loginrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|solutionrelative:src\\core\\userloginfunctionality.application\\features\\auth\\rules\\loginrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\core\\userloginfunctionality.application\\exceptions\\auth\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|solutionrelative:src\\core\\userloginfunctionality.application\\exceptions\\auth\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\core\\userloginfunctionality.application\\applicationregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|solutionrelative:src\\core\\userloginfunctionality.application\\applicationregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\core\\userloginfunctionality.application\\behaviours\\fluentvalidationbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|solutionrelative:src\\core\\userloginfunctionality.application\\behaviours\\fluentvalidationbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\core\\userloginfunctionality.application\\features\\auth\\commands\\login\\logincommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|solutionrelative:src\\core\\userloginfunctionality.application\\features\\auth\\commands\\login\\logincommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\core\\userloginfunctionality.application\\features\\auth\\login\\commands\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|solutionrelative:src\\core\\userloginfunctionality.application\\features\\auth\\login\\commands\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\core\\userloginfunctionality.application\\features\\auth\\commands\\login\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|solutionrelative:src\\core\\userloginfunctionality.application\\features\\auth\\commands\\login\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\core\\userloginfunctionality.application\\features\\auth\\commands\\login\\logincommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|solutionrelative:src\\core\\userloginfunctionality.application\\features\\auth\\commands\\login\\logincommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +50,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExceptionHandlingMiddleWare.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\ExceptionMiddleWares\\ExceptionHandlingMiddleWare.cs",
-              "RelativeDocumentMoniker": "Src\\Core\\UserLoginFunctionality.Application\\ExceptionMiddleWares\\ExceptionHandlingMiddleWare.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\ExceptionMiddleWares\\ExceptionHandlingMiddleWare.cs",
-              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Application\\ExceptionMiddleWares\\ExceptionHandlingMiddleWare.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T13:26:37.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ExceptionMiddleWare.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\ExceptionMiddleWares\\ExceptionMiddleWare.cs",
-              "RelativeDocumentMoniker": "Src\\Core\\UserLoginFunctionality.Application\\ExceptionMiddleWares\\ExceptionMiddleWare.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\ExceptionMiddleWares\\ExceptionMiddleWare.cs",
-              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Application\\ExceptionMiddleWares\\ExceptionMiddleWare.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T13:26:36.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FluentValidationBehaviour.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Behaviours\\FluentValidationBehaviour.cs",
-              "RelativeDocumentMoniker": "Src\\Core\\UserLoginFunctionality.Application\\Behaviours\\FluentValidationBehaviour.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Behaviours\\FluentValidationBehaviour.cs",
-              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Application\\Behaviours\\FluentValidationBehaviour.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Src\\Core\\UserLoginFunctionality.Application\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Application\\Interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T13:08:46.611Z",
+              "WhenOpened": "2025-02-25T14:31:21.721Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApplicationRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\ApplicationRegistration.cs",
-              "RelativeDocumentMoniker": "Src\\Core\\UserLoginFunctionality.Application\\ApplicationRegistration.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\ApplicationRegistration.cs",
-              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Application\\ApplicationRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\Tokens\\TokenService.cs",
+              "RelativeDocumentMoniker": "Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\Tokens\\TokenService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\Tokens\\TokenService.cs",
+              "RelativeToolTip": "Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\Tokens\\TokenService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T13:04:02.19Z",
+              "WhenOpened": "2025-02-25T14:29:41.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserInvalidLoginException.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Exceptions\\Auth\\UserInvalidLoginException.cs",
+              "RelativeDocumentMoniker": "Src\\Core\\UserLoginFunctionality.Application\\Exceptions\\Auth\\UserInvalidLoginException.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Exceptions\\Auth\\UserInvalidLoginException.cs",
+              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Application\\Exceptions\\Auth\\UserInvalidLoginException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:25:03.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Exceptions\\Auth\\UserNotFoundException.cs",
+              "RelativeDocumentMoniker": "Src\\Core\\UserLoginFunctionality.Application\\Exceptions\\Auth\\UserNotFoundException.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Exceptions\\Auth\\UserNotFoundException.cs",
+              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Application\\Exceptions\\Auth\\UserNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:20:14.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LoginCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Login\\Commands\\LoginCommandValidator.cs",
-              "RelativeDocumentMoniker": "Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Login\\Commands\\LoginCommandValidator.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Login\\Commands\\LoginCommandValidator.cs",
-              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Login\\Commands\\LoginCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Title": "LoginRules.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Rules\\LoginRules.cs",
+              "RelativeDocumentMoniker": "Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Rules\\LoginRules.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Rules\\LoginRules.cs",
+              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Rules\\LoginRules.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T12:56:00.796Z",
+              "WhenOpened": "2025-02-25T14:12:33.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Commands\\Login\\LoginCommandHandler.cs*",
+              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Commands\\Login\\LoginCommandHandler.cs*",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:07:23.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\ApplicationRegistration.cs",
+              "RelativeDocumentMoniker": "Src\\Core\\UserLoginFunctionality.Application\\ApplicationRegistration.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\ApplicationRegistration.cs",
+              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Application\\ApplicationRegistration.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:06:46.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Commands\\Login\\LoginCommandValidator.cs",
+              "RelativeDocumentMoniker": "Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Commands\\Login\\LoginCommandValidator.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Commands\\Login\\LoginCommandValidator.cs",
+              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Commands\\Login\\LoginCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:06:32.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Commands\\Login\\LoginCommandResponse.cs",
+              "RelativeDocumentMoniker": "Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Commands\\Login\\LoginCommandResponse.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Commands\\Login\\LoginCommandResponse.cs",
+              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Commands\\Login\\LoginCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:05:32.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Commands\\Login\\LoginCommandRequest.cs",
+              "RelativeDocumentMoniker": "Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Commands\\Login\\LoginCommandRequest.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Commands\\Login\\LoginCommandRequest.cs",
+              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Application\\Features\\Auth\\Commands\\Login\\LoginCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:03:25.65Z",
               "EditorCaption": ""
             }
           ]

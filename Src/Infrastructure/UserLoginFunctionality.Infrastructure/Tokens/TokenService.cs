@@ -19,7 +19,7 @@ public class TokenService : ITokenService
         _tokenSettings = options.Value;
         _userManager = userManager;
     }
-    public async Task<JwtSecurityToken> GenerateAccessTokenAsync(AppUser appUser, IList<Role> roles)
+    public async Task<JwtSecurityToken> GenerateAccessTokenAsync(AppUser appUser)
     {
         List<Claim> Claims = new()
         {

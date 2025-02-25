@@ -1,4 +1,4 @@
-﻿namespace UserLoginFunctionality.Application.Features.Auth.Login.Commands;
+﻿namespace UserLoginFunctionality.Application.Features.Auth.Commands.Login;
 
 public class LoginCommandResponse
 {

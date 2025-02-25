@@ -6,7 +6,7 @@ namespace UserLoginFunctionality.Application.Services;
 
 public interface ITokenService
 {
-    public Task<JwtSecurityToken> GenerateAccessTokenAsync(AppUser appUser,IList<Role> roles);
+    public Task<JwtSecurityToken> GenerateAccessTokenAsync(AppUser appUser);
     public string GenerateRefreshToken();
     public ClaimsPrincipal? GetPrincipalFromExpiredToken(string? token);
 }
