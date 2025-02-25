@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
 using Microsoft.AspNetCore.Http;
+using Microsoft.IdentityModel.Tokens;
 using System.Net;
 using System.Text.Json;
 using UserLoginFunctionality.Application.Exceptions.Base;
@@ -36,6 +37,14 @@ public class ExceptionHandlingMiddleWare : IMiddleware
 						Message = ex.Message,
 						StatusCode = context.Response.StatusCode,
 					};
+                    break;
+                case SecurityTokenException securityTokenException:
+                    context.Response.StatusCode = StatusCodes.Status404NotFound;
+                    exceptionModel = new()
+                    {
+                        Message = ex.Message,
+                        StatusCode = context.Response.StatusCode,
+                    };
                     break;
                 default:
 					context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
