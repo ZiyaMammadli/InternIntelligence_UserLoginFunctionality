@@ -23,13 +23,13 @@ public class RegisterCommandHandler : IRequestHandler<RegisterCommandRequest, Un
         await _registerRules.EnsureUserExist(user);
         AppUser appUser = new()
         {
-            FirstName = user.FirstName,
-            LastName = user.LastName,
-            UserName = user.UserName,
-            Email = user.Email,
+            FirstName = request.FirstName,
+            LastName = request.LastName,
+            UserName = request.UserName,
+            Email = request.Email,
             IsDeleted = false,
             CreatedDate = DateTime.UtcNow,
-            RefreshToken = "null"
+            RefreshToken = "null",
         };
         var result = await _userManager.CreateAsync(appUser, request.Password);
         if (result.Succeeded)
@@ -45,7 +45,7 @@ public class RegisterCommandHandler : IRequestHandler<RegisterCommandRequest, Un
                 };
                 await _roleManager.CreateAsync(role);
             }
-            await _userManager.AddToRoleAsync(user, "member");
+            await _userManager.AddToRoleAsync(appUser, "member");
         }
         return Unit.Value;
 
