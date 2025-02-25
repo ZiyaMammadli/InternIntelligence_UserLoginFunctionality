@@ -55,6 +55,21 @@ public class TokenService : ITokenService
 
     public ClaimsPrincipal? GetPrincipalFromExpiredToken(string? token)
     {
-        throw new NotImplementedException();
-    }
+        TokenValidationParameters? parameters = new()
+        {
+            ValidateIssuer=false,
+            ValidateAudience=false,
+            ValidateIssuerSigningKey=true,
+            IssuerSigningKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_tokenSettings.SecretKey)),
+            ValidateLifetime=false,
+        };
+        JwtSecurityTokenHandler handler = new JwtSecurityTokenHandler();
+        var principial=handler.ValidateToken(token, parameters, out SecurityToken securityToken);
+        if (securityToken is not JwtSecurityToken jwtSecurityToken 
+            || !jwtSecurityToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase))
+        {
+            throw new SecurityTokenException("Token is not found");
+        }
+        return principial;
+    }   
 }
