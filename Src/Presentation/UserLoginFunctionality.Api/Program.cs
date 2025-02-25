@@ -1,3 +1,4 @@
+using UserLoginFunctionality.Application.ExceptionMiddleWares;
 using UserLoginFunctionality.Infrastructure;
 using UserLoginFunctionality.Persistence;
 
@@ -11,6 +12,7 @@ builder.Services.AddOpenApi();
 builder.Services.AddPersistence(builder.Configuration);
 builder.Services.AddInfrastructure(builder.Configuration);
 
+
 builder.Configuration
     .SetBasePath(builder.Environment.ContentRootPath)
     .AddJsonFile("appsettings.json",optional:false)
@@ -22,7 +24,9 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+
 }
+app.ExceptionHandlingMiddleWare();
 
 app.UseHttpsRedirection();
 
