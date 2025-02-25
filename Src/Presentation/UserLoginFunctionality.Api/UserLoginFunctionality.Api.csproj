@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\UserLoginFunctionality.Infrastructure\UserLoginFunctionality.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Infrastructure\UserLoginFunctionality.Persistence\UserLoginFunctionality.Persistence.csproj" />
   </ItemGroup>
 

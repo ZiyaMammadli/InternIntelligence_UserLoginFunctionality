@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\core\\userloginfunctionality.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|solutionrelative:src\\core\\userloginfunctionality.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F966D75B-C8BA-4C88-A9CE-B4A89292FD3E}|Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\UserLoginFunctionality.Infrastructure.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\infrastructure\\userloginfunctionality.infrastructure\\tokens\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F966D75B-C8BA-4C88-A9CE-B4A89292FD3E}|Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\UserLoginFunctionality.Infrastructure.csproj|solutionrelative:src\\infrastructure\\userloginfunctionality.infrastructure\\tokens\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96952FF1-4F81-4D03-9664-CEBAB99D236E}|Src\\Presentation\\UserLoginFunctionality.Api\\UserLoginFunctionality.Api.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\presentation\\userloginfunctionality.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96952FF1-4F81-4D03-9664-CEBAB99D236E}|Src\\Presentation\\UserLoginFunctionality.Api\\UserLoginFunctionality.Api.csproj|solutionrelative:src\\presentation\\userloginfunctionality.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F966D75B-C8BA-4C88-A9CE-B4A89292FD3E}|Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\UserLoginFunctionality.Infrastructure.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\infrastructure\\userloginfunctionality.infrastructure\\infrastructureregistiration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F966D75B-C8BA-4C88-A9CE-B4A89292FD3E}|Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\UserLoginFunctionality.Infrastructure.csproj|solutionrelative:src\\infrastructure\\userloginfunctionality.infrastructure\\infrastructureregistiration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F966D75B-C8BA-4C88-A9CE-B4A89292FD3E}|Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\UserLoginFunctionality.Infrastructure.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\infrastructure\\userloginfunctionality.infrastructure\\tokens\\tokensettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F966D75B-C8BA-4C88-A9CE-B4A89292FD3E}|Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\UserLoginFunctionality.Infrastructure.csproj|solutionrelative:src\\infrastructure\\userloginfunctionality.infrastructure\\tokens\\tokensettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|c:\\users\\user\\source\\repos\\internintelligence_userloginfunctionality\\src\\core\\userloginfunctionality.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB02D11-2EAA-4034-8636-1D6B850F5C90}|Src\\Core\\UserLoginFunctionality.Application\\UserLoginFunctionality.Application.csproj|solutionrelative:src\\core\\userloginfunctionality.application\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Interfaces\\ITokenService.cs",
-              "RelativeDocumentMoniker": "Src\\Core\\UserLoginFunctionality.Application\\Interfaces\\ITokenService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Interfaces\\ITokenService.cs*",
-              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Application\\Interfaces\\ITokenService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABIAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "InfrastructureRegistiration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\InfrastructureRegistiration.cs",
+              "RelativeDocumentMoniker": "Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\InfrastructureRegistiration.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\InfrastructureRegistiration.cs",
+              "RelativeToolTip": "Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\InfrastructureRegistiration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T06:48:08.638Z",
+              "WhenOpened": "2025-02-25T07:09:34.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Presentation\\UserLoginFunctionality.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Src\\Presentation\\UserLoginFunctionality.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Presentation\\UserLoginFunctionality.Api\\Program.cs",
-              "RelativeToolTip": "Src\\Presentation\\UserLoginFunctionality.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "TokenSettings.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\Tokens\\TokenSettings.cs",
+              "RelativeDocumentMoniker": "Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\Tokens\\TokenSettings.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\Tokens\\TokenSettings.cs",
+              "RelativeToolTip": "Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\Tokens\\TokenSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T13:16:08.678Z",
+              "WhenOpened": "2025-02-25T07:05:29.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\Tokens\\TokenService.cs",
+              "RelativeDocumentMoniker": "Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\Tokens\\TokenService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\Tokens\\TokenService.cs*",
+              "RelativeToolTip": "Src\\Infrastructure\\UserLoginFunctionality.Infrastructure\\Tokens\\TokenService.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T06:58:23.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Src\\Core\\UserLoginFunctionality.Application\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\InternIntelligence_UserLoginFunctionality\\Src\\Core\\UserLoginFunctionality.Application\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "Src\\Core\\UserLoginFunctionality.Application\\Interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T06:48:08.638Z",
               "EditorCaption": ""
             }
           ]
