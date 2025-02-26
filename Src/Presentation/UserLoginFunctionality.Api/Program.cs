@@ -9,11 +9,18 @@ using UserLoginFunctionality.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//Load JSON configuration at the beginning
+builder.Configuration
+    .SetBasePath(builder.Environment.ContentRootPath)
+    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true)
+    .AddEnvironmentVariables();
 // Add services to the container.
 
-builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+builder.Services.AddControllers(); 
+
 builder.Services.AddMemoryCache();
+builder.Services.AddDistributedMemoryCache();
 builder.Services.Configure<IpRateLimitOptions>(options =>
 {
     options.GeneralRules = new List<RateLimitRule>
@@ -22,7 +29,7 @@ builder.Services.Configure<IpRateLimitOptions>(options =>
         {
             Endpoint = "*",
             Limit = 5,  
-            Period = "1m" 
+            Period = "10s" 
         }
     };
 });
@@ -36,6 +43,7 @@ builder.Services.AddPersistence(builder.Configuration);
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication();
 
+//Swagger security settings
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "InternIntelligence_UserLoginFunctionality", Version = "v1", Description = "InternIntelligence_UserLoginFunctionality swagger client." });
@@ -64,27 +72,47 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-builder.Configuration
-    .SetBasePath(builder.Environment.ContentRootPath)
-    .AddJsonFile("appsettings.json",optional:false)
-    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json",optional:true);
-
 var app = builder.Build();
+
+
+//Excption controller middelware
+app.ExceptionHandlingMiddleWare();
+
+// Rate limiting middleware
+app.UseIpRateLimiting();
+
+// Authentication ve Authorization middleware, order is important
+app.UseAuthentication();
+app.UseAuthorization();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+        c.RoutePrefix = string.Empty; 
+    });
 }
-
-app.UseHttpsRedirection();
-
-app.ExceptionHandlingMiddleWare();
-
-app.UseIpRateLimiting();
-
-app.UseAuthorization();
+else
+{
+    //Redirect HTTP requests to HTTPS
+    app.UseHttpsRedirection();
+    app.UseHsts();
+}
+//Should only work in Production
+app.Use(async (context, next) =>
+{
+    if (!context.Request.IsHttps && app.Environment.IsProduction())
+    {
+        var httpsUrl = "https://" + context.Request.Host + context.Request.Path;
+        context.Response.Redirect(httpsUrl, permanent: true);
+        return;
+    }
+    await next();
+});
 
 app.MapControllers();
 
