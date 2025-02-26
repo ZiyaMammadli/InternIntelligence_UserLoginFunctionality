@@ -28,6 +28,7 @@ public class RefreshTokenCommandHandler : IRequestHandler<RefreshTokenCommandReq
         string? email=claimsPrincipal.FindFirstValue(ClaimTypes.Email);
 
         AppUser? appUser= await _userManager.FindByEmailAsync(email);
+        await _refreshTokenRules.EnsureRereshTokenBelongToUser(appUser.RefreshToken,request.RefreshToken);
         await _refreshTokenRules.EnsureRefreshTokenExpiredTime(appUser.RefreshTokenExpireTime);
 
         JwtSecurityToken jwtSecurityToken= await _tokenService.GenerateAccessTokenAsync(appUser);
