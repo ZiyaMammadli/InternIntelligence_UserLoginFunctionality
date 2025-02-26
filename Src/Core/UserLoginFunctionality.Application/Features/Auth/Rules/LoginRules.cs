@@ -8,7 +8,7 @@ public class LoginRules:BaseRule
 {
     public Task EnsureUserNotFound(AppUser user)
     {
-        if (user is null) throw new UserNotFoundException(404, "User is not found");
+        if (user is null) throw new UserNotFoundException(400, "Password or Email is incorrect");
         return Task.CompletedTask;
     }
     public Task EnsureUserLogin(bool checkPassword)

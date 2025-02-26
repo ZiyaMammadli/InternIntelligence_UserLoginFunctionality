@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Configuration;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using UserLoginFunctionality.Application.Features.Auth.Rules;
@@ -13,12 +14,14 @@ public class RefreshTokenCommandHandler : IRequestHandler<RefreshTokenCommandReq
     private readonly ITokenService _tokenService;
     private readonly RefreshTokenRules _refreshTokenRules;
     private readonly UserManager<AppUser> _userManager;
+    private readonly IConfiguration _configuration;
 
-    public RefreshTokenCommandHandler(ITokenService tokenService,RefreshTokenRules refreshTokenRules,UserManager<AppUser> userManager)
+    public RefreshTokenCommandHandler(ITokenService tokenService,RefreshTokenRules refreshTokenRules,UserManager<AppUser> userManager,IConfiguration configuration)
     {
         _tokenService = tokenService;
         _refreshTokenRules = refreshTokenRules;
         _userManager = userManager;
+        _configuration = configuration;
     }
     public async Task<RefreshTokenCommandResponse> Handle(RefreshTokenCommandRequest request, CancellationToken cancellationToken)
     {
@@ -36,6 +39,8 @@ public class RefreshTokenCommandHandler : IRequestHandler<RefreshTokenCommandReq
 
         string refreshToken = _tokenService.GenerateRefreshToken();
         appUser.RefreshToken=refreshToken;
+        int.TryParse(_configuration["JWT:RefreshTokenValidityInDays"], out int RefreshTokenValidityInDays);
+        appUser.RefreshTokenExpireTime = DateTime.UtcNow.AddDays(RefreshTokenValidityInDays);
 
         await _userManager.UpdateAsync(appUser);
 

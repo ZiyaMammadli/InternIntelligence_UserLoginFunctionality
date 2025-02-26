@@ -1,4 +1,7 @@
+using AspNetCoreRateLimit;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.OpenApi.Models;
+using System.Threading.RateLimiting;
 using UserLoginFunctionality.Application;
 using UserLoginFunctionality.Application.ExceptionMiddleWares;
 using UserLoginFunctionality.Infrastructure;
@@ -10,6 +13,23 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+builder.Services.AddMemoryCache();
+builder.Services.Configure<IpRateLimitOptions>(options =>
+{
+    options.GeneralRules = new List<RateLimitRule>
+    {
+        new RateLimitRule
+        {
+            Endpoint = "*",
+            Limit = 5,  
+            Period = "1m" 
+        }
+    };
+});
+builder.Services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
+builder.Services.AddInMemoryRateLimiting();
+
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddPersistence(builder.Configuration);
@@ -18,7 +38,7 @@ builder.Services.AddApplication();
 
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "EasyShoping", Version = "v1", Description = "EasyShoping swagger client." });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "InternIntelligence_UserLoginFunctionality", Version = "v1", Description = "InternIntelligence_UserLoginFunctionality swagger client." });
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
     {
         Name = "Authorization",
@@ -57,9 +77,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.ExceptionHandlingMiddleWare();
 
 app.UseHttpsRedirection();
+
+app.ExceptionHandlingMiddleWare();
+
+app.UseIpRateLimiting();
 
 app.UseAuthorization();
 
