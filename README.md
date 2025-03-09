@@ -88,7 +88,7 @@ Authorization: Bearer {your_token}
 For questions or issues, please reach out to:
 
 - Email: [ziyam040@gmail.com](mailto:ziyam040@gmail.com)
-- GitHub: [Your GitHub Profile](https://github.com/ZiyaMammadli)
+- GitHub: [Profile](https://github.com/ZiyaMammadli)
 
 ## License
 
